@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="tree" width="120" height="120" viewBox="0 0 20 20">
+
+        
+        <defs>
+            <style>#tree .cls-1{opacity:1 !important;fill:#fff;}#tree .cls-2{fill:#c5d6e8;}#tree .cls-3{fill:gray;}#tree .cls-4{fill:none;}</style>
+        </defs>
+        <rect class="cls-1 fwns" x="2" y="2" width="16" height="16"></rect>
+        <rect class="cls-2 fwns" x="6" y="2" width="12" height="9"></rect>
+        <path class="cls-3 fwns" d="M1,1V19H19V1ZM6,2h8V6H6ZM6,7h8v4H6ZM2,2H5V7H2ZM2,8H5v3H2ZM9,18H2V12H9Zm9,0H10V12h8Zm0-7H15V2h3Z"></path>
+        <rect class="cls-4 nfwns" width="20" height="20"></rect>
+    
+</svg>

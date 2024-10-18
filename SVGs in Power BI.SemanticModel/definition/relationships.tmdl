@@ -1,0 +1,8 @@
+relationship 8b4f5294-5019-cf5e-90e6-63ad87b9e0b0
+	fromColumn: fHDI.Code
+	toColumn: dCountries.ISO3
+
+relationship 4a9f582d-4928-e20f-fcc2-c60a1aad5d4e
+	fromColumn: fHDI.Year
+	toColumn: dCalendar.Year
+

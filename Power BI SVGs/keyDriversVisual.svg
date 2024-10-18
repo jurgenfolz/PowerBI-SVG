@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="keyDrivers" width="120" height="120" viewBox="0 0 20 20">
+
+        
+        
+        <defs>
+            <style>#keyDrivers .cls-1{opacity:1 !important;fill:gray;}#keyDrivers .cls-2{fill:gray;isolation:isolate;}#keyDrivers .cls-4{fill:#bebebe;isolation:isolate;}#keyDrivers .cls-2{opacity:0.8;}#keyDrivers .cls-3{fill:#4d82b8;}#keyDrivers .cls-5{fill:#dbdbdb;}#keyDrivers .cls-6{fill:#eec978;}</style>
+        </defs>
+        <polygon class="cls-1 fwns" points="1 17 1 0 0 0 0 18 12.29 18 12.29 17 1 17"></polygon>
+        <rect class="cls-2 fwns" x="1" y="2" width="15" height="1"></rect>
+        <rect class="cls-2 fwns" x="1" y="7" width="8" height="1"></rect>
+        <circle class="cls-3 fwns" cx="15.5" cy="2.5" r="1.8"></circle>
+        <circle class="cls-1 fwns" cx="8.5" cy="7.5" r="1.8"></circle>
+        <rect class="cls-2 fwns" x="1" y="12" width="4" height="1"></rect>
+        <circle class="cls-1 fwns" cx="4.5" cy="12.5" r="1.8"></circle>
+        <path class="cls-4 fwns" d="M17.14,18.57H15.71V17.14H14.29v1.43a1.26,1.26,0,0,0,.11.55,1.31,1.31,0,0,0,.3.46,1.62,1.62,0,0,0,.46.31,1.5,1.5,0,0,0,.55.11h1.43a1.47,1.47,0,0,0,.56-.11,1.57,1.57,0,0,0,.45-.31,1.39,1.39,0,0,0,.31-.45,1.47,1.47,0,0,0,.11-.56V17.14H17.14Z" transform="translate(-1 -1)"></path>
+        <rect class="cls-5 nfwns" x="14.71" y="16.14" width="1.43" height="1.43"></rect>
+        <path class="cls-6 fwns" d="M13.87,16.05a1.41,1.41,0,0,1,.32.51,1.76,1.76,0,0,1,.1.58h4.28A1.56,1.56,0,0,1,19,16a4.57,4.57,0,0,0,.74-1.13A3.41,3.41,0,0,0,20,13.57a3.45,3.45,0,0,0-.28-1.39,3.49,3.49,0,0,0-1.9-1.9,3.62,3.62,0,0,0-2.79,0,3.54,3.54,0,0,0-1.89,1.89,3.47,3.47,0,0,0-.28,1.4,3.41,3.41,0,0,0,.26,1.34A4.31,4.31,0,0,0,13.87,16.05Z" transform="translate(-1 -1)"></path>
+    
+    
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="lineStackedColumnCombo" width="120" height="120" viewBox="0 0 20 20">
+
+        
+        <defs>
+            <style>#lineStackedColumnCombo .cls-1{opacity:1 !important;fill:gray;}#lineStackedColumnCombo .cls-2{fill:#e78e46;}#lineStackedColumnCombo .cls-3{fill:#b3b3b3;}#lineStackedColumnCombo .cls-4{fill:#eca56b;}#lineStackedColumnCombo .cls-5{fill:#d86344;}#lineStackedColumnCombo .cls-6{fill:none;}</style>
+        </defs>
+        <polygon class="cls-1 fwns" points="2 18 2 1 1 1 1 19 19 19 19 18 2 18"></polygon>
+        <rect class="cls-2 fwns" x="18" y="1" width="1" height="17"></rect>
+        <rect class="cls-3 fwns" x="5" y="12" width="4" height="6"></rect>
+        <rect class="cls-3 fwns" x="11" y="14" width="4" height="4"></rect>
+        <rect class="cls-4 fwns" x="11" y="8" width="4" height="6"></rect>
+        <rect class="cls-4 fwns" x="5" y="4" width="4" height="8"></rect>
+        <polygon class="cls-5 fwns" points="13.06 13.27 7.52 9.91 2 14.47 2 15.12 7.57 10.52 13.12 13.89 18 9.32 18 8.63 13.06 13.27"></polygon>
+        <rect class="cls-6 nfwns" width="20" height="20"></rect>
+    
+</svg>

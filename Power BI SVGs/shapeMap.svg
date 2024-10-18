@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="shapeMap" width="120" height="120" viewBox="0 0 18 18">
+
+        <defs>
+            <style>#shapeMap .cls-1{opacity:1 !important;fill:#a9c4da;}#shapeMap .cls-2{fill:#46505b;}#shapeMap .cls-3{fill:#49698a;}#shapeMap .cls-4{fill:#4d82b8;}#shapeMap .cls-5{fill:none;}</style>
+        </defs>
+        <polygon class="cls-1 fwns" points="18 1 11 1 11 2 8 2 8 1 0 1 0 4 1 4 1 7 0 7 0 13 1 13 1 15 3 15 3 17 5 17 5 18 14 18 14 17 17 17 17 12 18 12 18 1"></polygon>
+        <polygon class="cls-2 fwns" points="7 8 7 6 3 6 3 5 2 5 2 8 1 8 1 10 8 10 8 8 7 8"></polygon>
+        <polygon class="cls-2 fwns" points="15 2 15 5 16 5 16 9 15 9 15 11 17 11 17 2 15 2"></polygon>
+        <polygon class="cls-3 fwns" points="12 2 12 3 7 3 7 2 1 2 1 3 2 3 2 4 4 4 4 5 14 5 14 2 12 2"></polygon>
+        <polygon class="cls-3 fwns" points="14 12 14 11 8 11 8 12 10 12 10 16 9 16 9 17 13 17 13 16 16 16 16 12 14 12"></polygon>
+        <polygon class="cls-4 fwns" points="8 6 8 7 9 7 9 10 14 10 14 8 15 8 15 6 8 6"></polygon>
+        <polygon class="cls-4 fwns" points="7 13 7 11 1 11 1 12 2 12 2 14 4 14 4 16 6 16 6 17 8 17 8 15 9 15 9 13 7 13"></polygon>
+        <rect class="cls-5 nfwns" width="18" height="18"></rect>
+    
+        
+</svg>

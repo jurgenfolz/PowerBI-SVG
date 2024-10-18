@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="dotPlot" width="120" height="120" viewBox="0 0 20 20">
+
+        
+        <defs>
+            <style>#dotPlot .cls-1{opacity:1 !important;fill:gray;}#dotPlot .cls-2{fill:#bebebe;opacity:0.8;}#dotPlot .cls-3{fill:#e78e46;}#dotPlot .cls-4{fill:#4d82b8;}#dotPlot .cls-5{fill:#76a797;}#dotPlot .cls-6{fill:none;}</style>
+        </defs>
+        <polygon class="cls-1 fwns" points="2 18 2 1 1 1 1 19 19 19 19 18 2 18"></polygon>
+        <rect class="cls-2 fwns" x="2" y="4" width="17" height="1"></rect>
+        <rect class="cls-2 fwns" x="2" y="9" width="17" height="1"></rect>
+        <rect class="cls-2 fwns" x="2" y="14" width="17" height="1"></rect>
+        <circle class="cls-3 fwns" cx="14.5" cy="4.5" r="1.75"></circle>
+        <circle class="cls-4 fwns" cx="6.5" cy="9.5" r="1.75"></circle>
+        <circle class="cls-5 fwns" cx="12.5" cy="14.5" r="1.75"></circle>
+        <rect class="cls-6 nfwns" width="20" height="20"></rect>
+    
+</svg>

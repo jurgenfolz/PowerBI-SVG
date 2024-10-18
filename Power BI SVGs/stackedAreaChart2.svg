@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="stackedArea" width="120" height="120" viewBox="0 0 20 20">
+
+        <defs>
+            <style>#stackedArea .cls-1{opacity:1 !important;fill:gray;}#stackedArea .cls-2{opacity:0.6;}#stackedArea .cls-3{fill:#f0c785;}#stackedArea .cls-4{fill:#4c81b8;}#stackedArea .cls-5{fill:#f2a769;}#stackedArea .cls-6{fill:none;}</style>
+        </defs>
+        <polygon class="cls-1 fwns" points="1 19 1 7.14 1 0 0 0 0 20 20 20 20 19 1 19"></polygon>
+        <polygon class="cls-3 nfws" points="5 3.8 9 7 14 2.7 18 7 20 4.3 20 15 1 15 1 7 5 3.8"></polygon>
+        <polygon class="cls-4 fwns" points="1 9.8 5.86 12.9 10.04 8.57 14.11 13 20 8.5 20 19 1 19 1 9.8"></polygon>
+        <polygon class="cls-5 nfws1" points="20 19 1 19 1 17.2 4.3 13.6 8.08 17.91 11.29 14.93 14.28 18.24 20 12.3 20 19"></polygon>
+        <rect class="cls-6 nfwns" width="20" height="20"></rect>
+   
+        
+</svg>

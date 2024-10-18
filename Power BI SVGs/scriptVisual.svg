@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="rScriptImageVisual" width="120" height="120" viewBox="0 0 20 20">
+
+        <defs>
+            <style>#rScriptImageVisual .cls-1{opacity:1 !important;fill:#8baed1;}#rScriptImageVisual .cls-2{fill:none;}</style>
+        </defs>
+        <path class="cls-1 fwns" d="M16.89,19l-3.68-7.17A5.38,5.38,0,0,0,11.3,1.41H4V11.1H4V19H7.1V12.19h3.13L13.72,19ZM7.1,4.41h4.2A2.39,2.39,0,0,1,13.69,6.8,2.48,2.48,0,0,1,11.3,9.29H7.1Z"></path>
+        <rect class="cls-2 nfwns" width="20" height="20"></rect>
+   
+        
+</svg>

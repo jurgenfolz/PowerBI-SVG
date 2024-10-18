@@ -1,0 +1,24 @@
+expression FolderPath = "C:\Users\KlausFolz\Desktop\GD\Repositories\SVG-Repo\data\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 4b19ba88-b560-405f-9d67-1dec03fbee88
+	queryGroup: Parameters
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+
+expression dCountriesflags =
+		let
+		    Source = Table.FromColumns({Lines.FromBinary(File.Contents(FolderPath&"flags.json"), null, null)}),
+		    #"Transformed Column" = Table.TransformColumns(Source, {"Column1", Json.Document}),
+		    #"Expanded Column1" = Table.ExpandRecordColumn(#"Transformed Column", "Column1", {"File Name", "SVG Content"}, {"File Name", "SVG Content"}),
+		    #"Changed Type" = Table.TransformColumnTypes(#"Expanded Column1",{{"File Name", type text}, {"SVG Content", type text}}),
+		    #"Uppercased Text" = Table.TransformColumns(#"Changed Type",{{"File Name", Text.Upper, type text}})
+		in
+		    #"Uppercased Text"
+	lineageTag: ad8dc400-122c-48eb-be1d-d05d52c9a2a7
+	queryGroup: Tables
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

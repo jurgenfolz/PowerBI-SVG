@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="kpi" width="120" height="120" viewBox="0 0 20 20">
+
+     
+        <defs>
+            <style>#kpi .cls-1{opacity:1 !important;fill:#aeaeae;}#kpi .cls-2{fill:#fff;}#kpi .cls-3{fill:#858585;}#kpi .cls-4{fill:#d86344;}#kpi .cls-5{fill:#6fa492;}#kpi .cls-6{fill:none;}</style>
+        </defs>
+        <rect class="cls-1 nfws" x="1" y="3" width="18" height="13"></rect>
+        <rect class="cls-2 nfwns" x="2" y="4" width="16" height="11"></rect>
+        <rect class="cls-3 fwns" x="4" y="13" width="12" height="1"></rect>
+        <polygon class="cls-4 fwns" points="10.2 6 13 9.8 15.8 6 10.2 6"></polygon>
+        <polygon class="cls-5 fwns" points="4.2 10 7 6.2 9.8 10 4.2 10"></polygon>
+        <rect class="cls-6 nfwns" width="20" height="20"></rect>
+    
+</svg>

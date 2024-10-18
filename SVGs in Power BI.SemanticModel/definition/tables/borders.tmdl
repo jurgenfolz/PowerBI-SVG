@@ -1,0 +1,35 @@
+table borders
+	lineageTag: 89e3f17e-c117-4ccc-89e6-607e50916a78
+
+	column 'File Name'
+		dataType: string
+		lineageTag: 566667b5-8ca6-49be-93e1-046d9b202531
+		summarizeBy: none
+		sourceColumn: File Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'SVG Content'
+		dataType: string
+		lineageTag: 1a2f2198-5be2-413e-ae89-215609d5b197
+		summarizeBy: none
+		sourceColumn: SVG Content
+
+		annotation SummarizationSetBy = Automatic
+
+	partition borders = m
+		mode: import
+		queryGroup: Tables
+		source =
+				let
+				    Source = Table.FromColumns({Lines.FromBinary(File.Contents("C:\Users\KlausFolz\Desktop\GD\Repositories\SVG-Repo\data\borders.json"), null, null)}),
+				    #"Transformed Column" = Table.TransformColumns(Source, {"Column1", Json.Document}),
+				    #"Expanded Column1" = Table.ExpandRecordColumn(#"Transformed Column", "Column1", {"File Name", "SVG Content"}, {"File Name", "SVG Content"}),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Expanded Column1",{{"File Name", type text}, {"SVG Content", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

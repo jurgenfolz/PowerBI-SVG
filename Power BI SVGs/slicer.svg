@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="slicer" width="120" height="120" viewBox="0 0 20 20">
+
+        
+        <defs>
+            <style>#slicer .cls-1{opacity:1 !important;fill:#fff;}#slicer .cls-2{fill:#727272;}#slicer .cls-3{fill:#4a7db1;}#slicer .cls-4{fill:#c1d3e6;}#slicer .cls-5{fill:none;}</style>
+        </defs>
+        <polygon class="cls-1 fwns" points="1 4 1 18 14 18 14 10 19 10 19 4 1 4"></polygon>
+        <polygon class="cls-2 fwns" points="0 0 0 18 12 18 12 17 1 17 1 4 18 4 18 8 19 8 19 0 0 0"></polygon>
+        <rect class="cls-3 fwns" x="3" y="5" width="3" height="3"></rect>
+        <rect class="cls-4 fwns" x="3" y="9" width="3" height="3"></rect>
+        <rect class="cls-4 fwns" x="3" y="13" width="3" height="3"></rect>
+        <polygon class="cls-2 fwns" points="9 9 9 10.3 13 14.8 13 20 16 20 16 14.8 20 10.24 20 9 9 9"></polygon>
+        <rect class="cls-5 nfwns" width="20" height="20"></rect>
+    
+</svg>

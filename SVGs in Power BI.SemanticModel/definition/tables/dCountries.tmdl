@@ -1,0 +1,270 @@
+table dCountries
+	lineageTag: 17276ef8-ee7a-45cd-9825-4b0718101e01
+
+	column ISO
+		dataType: string
+		lineageTag: fe9b40af-8895-483c-af28-38e315a2e661
+		summarizeBy: none
+		sourceColumn: ISO
+
+		annotation SummarizationSetBy = Automatic
+
+	column ISO3
+		dataType: string
+		lineageTag: b6073c3f-12fd-4f0e-a6df-38e94a8919ed
+		summarizeBy: none
+		sourceColumn: ISO3
+
+		annotation SummarizationSetBy = Automatic
+
+	column ISO-Numeric
+		dataType: int64
+		formatString: 0
+		lineageTag: 227dd21e-d2bb-45cd-babf-9447aae52582
+		summarizeBy: none
+		sourceColumn: ISO-Numeric
+
+		annotation SummarizationSetBy = Automatic
+
+	column fips
+		dataType: string
+		lineageTag: 12db8bc2-8a47-4ff4-97df-b061fc53f9be
+		summarizeBy: none
+		sourceColumn: fips
+
+		annotation SummarizationSetBy = Automatic
+
+	column Country
+		dataType: string
+		lineageTag: 489695cc-1555-40b3-bcae-cea50f5fb590
+		summarizeBy: none
+		sourceColumn: Country
+
+		annotation SummarizationSetBy = Automatic
+
+	column Capital
+		dataType: string
+		lineageTag: 641ef314-995c-4411-b70b-b58aa15f236c
+		summarizeBy: none
+		sourceColumn: Capital
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Area(in sq km)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 9337bc61-16f4-41a4-8a81-760cc865508b
+		summarizeBy: none
+		sourceColumn: Area(in sq km)
+
+		annotation SummarizationSetBy = Automatic
+
+	column Population
+		dataType: int64
+		formatString: 0
+		lineageTag: 9a03e648-e3ee-4247-ac1c-64563f0fe074
+		summarizeBy: none
+		sourceColumn: Population
+
+		annotation SummarizationSetBy = Automatic
+
+	column ContinentAbreviation
+		dataType: string
+		lineageTag: 104b43f8-b305-4c2a-b544-0c917c810084
+		summarizeBy: none
+		sourceColumn: ContinentAbreviation
+
+		annotation SummarizationSetBy = Automatic
+
+	column tld
+		dataType: string
+		lineageTag: 84140908-0abe-4d1f-963f-02557eb10bac
+		summarizeBy: none
+		sourceColumn: tld
+
+		annotation SummarizationSetBy = Automatic
+
+	column CurrencyCode
+		dataType: string
+		lineageTag: 7f0832ce-1940-406b-9cdd-8887e9c1ce1a
+		summarizeBy: none
+		sourceColumn: CurrencyCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column CurrencyName
+		dataType: string
+		lineageTag: ff4b5710-5fd8-4a76-8ba2-972b6c03c151
+		summarizeBy: none
+		sourceColumn: CurrencyName
+
+		annotation SummarizationSetBy = Automatic
+
+	column Phone
+		dataType: string
+		lineageTag: a248d090-d0fb-43db-8e8a-f7eb44e937ee
+		summarizeBy: none
+		sourceColumn: Phone
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Postal Code Format'
+		dataType: string
+		lineageTag: f977d08a-d0d2-4cce-8284-5ae5faa19be6
+		summarizeBy: none
+		sourceColumn: Postal Code Format
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Postal Code Regex'
+		dataType: string
+		lineageTag: a7809d60-4367-4603-bfeb-61e5457d7525
+		summarizeBy: none
+		sourceColumn: Postal Code Regex
+
+		annotation SummarizationSetBy = Automatic
+
+	column Languages
+		dataType: string
+		lineageTag: 51e895d6-f5e9-4204-9b03-c03e9351819c
+		summarizeBy: none
+		sourceColumn: Languages
+
+		annotation SummarizationSetBy = Automatic
+
+	column geonameid
+		dataType: int64
+		formatString: 0
+		lineageTag: af82e33a-0454-4c4f-94a6-6243c72f0daa
+		summarizeBy: none
+		sourceColumn: geonameid
+
+		annotation SummarizationSetBy = Automatic
+
+	column neighbours
+		dataType: string
+		lineageTag: becd787d-37c4-4229-a34e-c2058103170f
+		summarizeBy: none
+		sourceColumn: neighbours
+
+		annotation SummarizationSetBy = Automatic
+
+	column EquivalentFipsCode
+		dataType: string
+		lineageTag: bb485e02-f11a-4345-b87f-0763e631e4e7
+		summarizeBy: none
+		sourceColumn: EquivalentFipsCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column Continent
+		dataType: string
+		lineageTag: 6828eb01-5242-4766-8c36-89f0716d37dd
+		summarizeBy: none
+		sourceColumn: Continent
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'SVG Content'
+		dataType: string
+		lineageTag: ac1cad9e-3797-4482-aeae-cf06532d8d0b
+		summarizeBy: none
+		sourceColumn: SVG Content
+
+		annotation SummarizationSetBy = Automatic
+
+	column FlagP1
+		dataType: string
+		lineageTag: 099a4556-dd54-43d0-9a7a-4f9a80302036
+		summarizeBy: none
+		sourceColumn: FlagP1
+
+		annotation SummarizationSetBy = Automatic
+
+	column FlagP2
+		dataType: string
+		lineageTag: d4868269-af88-4aae-b94c-1beb3c2beaef
+		summarizeBy: none
+		sourceColumn: FlagP2
+
+		annotation SummarizationSetBy = Automatic
+
+	column FlagP3
+		dataType: string
+		lineageTag: e2dccbf6-e2c7-4e48-8d9c-859f09fb85a9
+		summarizeBy: none
+		sourceColumn: FlagP3
+
+		annotation SummarizationSetBy = Automatic
+
+	column FlagP4
+		dataType: string
+		lineageTag: 9a41d36f-e697-4554-aa00-b1d7b739ed12
+		summarizeBy: none
+		sourceColumn: FlagP4
+
+		annotation SummarizationSetBy = Automatic
+
+	column FlagP5
+		dataType: string
+		lineageTag: 05b2eb45-f211-4d85-a1e7-ba1034c60a00
+		summarizeBy: none
+		sourceColumn: FlagP5
+
+		annotation SummarizationSetBy = Automatic
+
+	column FlagP6
+		dataType: string
+		lineageTag: 5d0dd3d0-dbb6-40c5-acbd-32ac292b1791
+		summarizeBy: none
+		sourceColumn: FlagP6
+
+		annotation SummarizationSetBy = Automatic
+
+	column FlagP7
+		dataType: string
+		lineageTag: 055aaa06-4dc5-40c1-ae26-12239792b63f
+		summarizeBy: none
+		sourceColumn: FlagP7
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'borders.SVG Content'
+		dataType: string
+		lineageTag: 35eceea7-e9f7-4130-a095-3c21ab31d32c
+		summarizeBy: none
+		sourceColumn: borders.SVG Content
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dCountries = m
+		mode: import
+		queryGroup: Tables
+		source = ```
+				let
+				    Source = Excel.Workbook(File.Contents(FolderPath&"countries.xlsx"), null, true),
+				    countries_Sheet = Source{[Item="countries",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(countries_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"ISO", type text}, {"ISO3", type text}, {"ISO-Numeric", Int64.Type}, {"fips", type text}, {"Country", type text}, {"Capital", type text}, {"Area(in sq km)", Int64.Type}, {"Population", Int64.Type}, {"ContinentAbreviation", type text}, {"tld", type text}, {"CurrencyCode", type text}, {"CurrencyName", type text}, {"Phone", type text}, {"Postal Code Format", type text}, {"Postal Code Regex", type text}, {"Languages", type text}, {"geonameid", Int64.Type}, {"neighbours", type text}, {"EquivalentFipsCode", type text}, {"Continent", type text}}),
+				    #"Merged Queries" = Table.NestedJoin(#"Changed Type", {"ISO"}, dCountriesflags, {"File Name"}, "dCountriesFlags", JoinKind.LeftOuter),
+				    #"Expanded dFlags" = Table.ExpandTableColumn(#"Merged Queries", "dCountriesFlags", {"SVG Content"}, {"SVG Content"}),
+				    
+				    // Split the SVG content into parts with a maximum of 32,000 characters
+				    #"Added Part1" = Table.AddColumn(#"Expanded dFlags", "FlagP1", each Text.Start([SVG Content], 32000), type text),
+				    #"Added Part2" = Table.AddColumn(#"Added Part1", "FlagP2", each Text.Middle([SVG Content], 32000, 32000), type text),
+				    #"Added Part3" = Table.AddColumn(#"Added Part2", "FlagP3", each Text.Middle([SVG Content], 64000, 32000), type text),
+				    #"Added Part4" = Table.AddColumn(#"Added Part3", "FlagP4", each Text.Middle([SVG Content], 96000, 32000), type text),
+				    #"Added Part5" = Table.AddColumn(#"Added Part4", "FlagP5", each Text.Middle([SVG Content], 128000, 32000), type text),
+				    #"Added Part6" = Table.AddColumn(#"Added Part5", "FlagP6", each Text.Middle([SVG Content], 160000, 32000), type text),
+				    #"Added Part7" = Table.AddColumn(#"Added Part6", "FlagP7", each Text.Middle([SVG Content], 192000, 32000), type text),
+				    #"Merged Queries1" = Table.NestedJoin(#"Added Part7", {"ISO"}, borders, {"File Name"}, "borders", JoinKind.LeftOuter),
+				    #"Expanded borders" = Table.ExpandTableColumn(#"Merged Queries1", "borders", {"SVG Content"}, {"borders.SVG Content"}) 
+				    
+				in
+				    #"Expanded borders"
+				```
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

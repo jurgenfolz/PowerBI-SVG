@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="line" width="120" height="120" viewBox="0 0 20 20">
+
+
+        <defs>
+            <style>#line .cls-1{opacity:1 !important;fill:gray;}#line .cls-2{fill:#eab0a0;}#line .cls-3{fill:#4d82b8;}#line .cls-4{fill:none;}</style>
+        </defs>
+        <polygon class="cls-1 fwns" points="2 18 2 1 1 1 1 19 19 19 19 18 2 18"></polygon>
+        <polygon class="cls-2 fwns" points="12.45 5.02 2 15.47 2 16.53 12.55 5.98 19 10.28 19 9.38 12.45 5.02"></polygon>
+        <polygon class="cls-3 fwns" points="12.34 11.13 5.44 7.03 2 10.47 2 11.53 5.56 7.97 12.46 12.07 19 5.53 19 4.47 12.34 11.13"></polygon>
+        <rect class="cls-4 nfwns" width="20" height="20"></rect>
+   
+    
+</svg>

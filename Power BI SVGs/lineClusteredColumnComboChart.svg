@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="combo" width="120" height="120" viewBox="0 0 20 20">
+
+       
+       
+        <defs>
+            <style>#combo .cls-1{opacity:1 !important;fill:gray;}#combo .cls-2{fill:#8baed1;}#combo .cls-3{fill:gray;}#combo .cls-4{fill:#d86344;}#combo .cls-5{fill:none;}</style>
+        </defs>
+        <polygon class="cls-1 fwns" points="2 18 2 1 1 1 1 19 19 19 19 18 2 18"></polygon>
+        <rect class="cls-2 fwns" x="5" y="8" width="3" height="10"></rect>
+        <rect class="cls-2 fwns" x="9" y="4" width="3" height="14"></rect>
+        <rect class="cls-2 fwns" x="13" y="7" width="3" height="11"></rect>
+        <rect class="cls-3 fwns" x="18" y="1" width="1" height="17"></rect>
+        <polygon class="cls-4 fwns" points="13.06 14.27 7.52 10.91 2 15.47 2 16.12 7.57 11.52 13.12 14.89 18 10.32 18 9.63 13.06 14.27"></polygon>
+        <rect class="cls-5 nfwns" width="20" height="20"></rect>
+   
+    
+</svg>

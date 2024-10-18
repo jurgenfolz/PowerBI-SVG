@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="callout" width="120" height="120" viewBox="0 0 20 20">
+
+        <defs>
+            <style>#callout .cls-1{opacity:1 !important;fill:#fff;}#callout .cls-2{fill:gray;}#callout .cls-3{fill:#b3b3b3;}#callout .cls-4{fill:#8baed1;}#callout .cls-5{fill:none;}</style>
+        </defs>
+        <rect class="cls-1 fwns" x="2" y="2" width="16" height="16"></rect>
+        <path class="cls-2 fwns" d="M1,1V19H19V1ZM18,18H2V2H18Z"></path>
+        <rect class="cls-3 fwns" x="3" y="3" width="13" height="2"></rect>
+        <rect class="cls-3 fwns" x="3" y="11" width="14" height="2"></rect>
+        <rect class="cls-4 fwns" x="3" y="7" width="9" height="2"></rect>
+        <rect class="cls-4 fwns" x="3" y="15" width="11" height="2"></rect>
+        <rect class="cls-5 nfwns" width="20" height="20"></rect>
+    
+        
+</svg>

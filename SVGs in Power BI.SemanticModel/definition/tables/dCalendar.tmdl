@@ -1,0 +1,38 @@
+table dCalendar
+	lineageTag: 1a2feba3-7d0c-4127-9975-f0b38fc74585
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: e4dae6f4-a750-4d68-90e9-bd2d885f064d
+		summarizeBy: none
+		isNameInferred
+		isDataTypeInferred
+		sourceColumn: fHDI[Year]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Decade
+		dataType: double
+		lineageTag: 9a29e0f5-950a-43f5-8563-506875e4bf58
+		summarizeBy: none
+		isNameInferred
+		isDataTypeInferred
+		sourceColumn: [Decade]
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition dCalendar = calculated
+		mode: import
+		source = ```
+				
+				    ADDCOLUMNS(
+				        DISTINCT(fHDI[Year]), //Return all years
+				        "Decade",ROUNDDOWN(DIVIDE([Year],10),0)*10 // Divide by 10, then round it down with 0 digits and multiply by 10 again to get the decade
+				    )
+				```
+
+	annotation PBI_Id = 151e90a5012d470883418cf8a1f7444a
+

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="table" width="120" height="120" viewBox="0 0 20 20">
+
+        <defs>
+            <style>#table .cls-1{opacity:1 !important;fill:#b3b3b3;}#table .cls-2{fill:#fff;}#table .cls-3{fill:#bebebe;}#table .cls-4{fill:#4d82b8;}#table .cls-5{fill:none;}</style>
+        </defs>
+        <rect class="cls-1 nfws" x="2" y="4" width="16" height="15"></rect>
+        <rect class="cls-2 nfws" x="3" y="4" width="14" height="14"></rect>
+        <path class="cls-3 nfws" d="M17,9V8H13V4H12V8H8V4H7V8H3V9H7v4H3v1H7v4H8V14h4v4h1V14h4V13H13V9Zm-5,4H8V9h4Z"></path>
+        <rect class="cls-4 fws" x="2" y="1" width="16" height="3"></rect>
+    
+        
+</svg>

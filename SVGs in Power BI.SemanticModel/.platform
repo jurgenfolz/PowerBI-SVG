@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "SVGs in Power BI"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "64e4a253-666c-44a6-9d71-7707e6fd9c8a"
+  }
+}

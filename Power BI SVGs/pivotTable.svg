@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="matrix" width="120" height="120" viewBox="0 0 20 20">
+
+       
+        <defs>
+            <style>#matrix .cls-1{opacity:1 !important;fill:#b3b3b3;}#matrix .cls-2{fill:#fff;}#matrix .cls-3{fill:#d2dfec;}#matrix .cls-4{fill:#bebebe;}#matrix .cls-5{fill:#4d82b8;}#matrix .cls-6{fill:none;}</style>
+        </defs>
+        <rect class="cls-1 nfws" x="2" y="4" width="16" height="15"></rect>
+        <rect class="cls-2 nfwns" x="3" y="4" width="9" height="9"></rect>
+        <polygon class="cls-3 fws1" points="13 4 13 14 3 14 3 18 17 18 17 4 13 4"></polygon>
+        <path class="cls-4 nfws1" d="M17,9V8H13V4H12V8H8V4H7V8H3V9H7v4H3v1H7v4H8V14h4v4h1V14h4V13H13V9Zm-5,4H8V9h4Z"></path>
+        <rect class="cls-5 fws" x="2" y="1" width="16" height="3"></rect>
+    
+</svg>

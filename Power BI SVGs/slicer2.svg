@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="slicerHoriz" width="120" height="120" viewBox="0 0 20 20">
+
+        <defs>
+            <style>#slicerHoriz .cls-1{opacity:1 !important;fill:none;}#slicerHoriz .cls-2{fill:#fff;}#slicerHoriz .cls-3{fill:#b3b3b3;}#slicerHoriz .cls-4{fill:#4d82b8;}#slicerHoriz .cls-5{fill:#8baed1;}#slicerHoriz .cls-6{fill:#eac282;}#slicerHoriz .cls-7{fill:#eab0a0;}#slicerHoriz .cls-8{fill:gray;}</style>
+        </defs>
+        <rect class="cls-1 nfwns" width="20" height="20"></rect>
+        <polygon class="cls-2 fwns" points="13 17 9 13 9 9 17 9 17 4 2 4 2 18 13 18 13 17"></polygon>
+        <polygon class="cls-3 fwns" points="2 18 2 4 1 4 1 19 13 19 13 18 2 18"></polygon>
+        <rect class="cls-3 fwns" x="17" y="4" width="1" height="5"></rect>
+        <rect class="cls-4 fwns" x="1" y="1" width="17" height="3"></rect>
+        <rect class="cls-5 fwns" x="4" y="5" width="3" height="3"></rect>
+        <rect class="cls-6 fwns" x="8" y="5" width="3" height="3"></rect>
+        <rect class="cls-7 fwns" x="12" y="5" width="3" height="3"></rect>
+        <polygon class="cls-8 fwns" points="20 10 10 10 10 12 14 16 14 20 16 20 16 16 20 12 20 10"></polygon>
+    
+        
+</svg>

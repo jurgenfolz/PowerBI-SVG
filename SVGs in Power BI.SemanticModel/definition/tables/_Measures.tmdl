@@ -1,0 +1,93 @@
+table _Measures
+	lineageTag: 2a486008-df12-463c-875f-85bdd2eeb8da
+
+	measure 'Human Development Index' = AVERAGE(fHDI[Human Development Index])
+		formatString: 0.000
+		displayFolder: Measures
+		lineageTag: 5edaf22b-bacd-47ac-ba02-225555313332
+
+	measure 'Donut Chart' = ```
+			
+			//Penis
+			VAR HDI_Value = [Human Development Index] //The measure that will be used
+			VAR radius = 16 // Radius of the donut chart
+			VAR strokeWidth = 6  // width of the chart
+			VAR backgroundColor = "%23686868"  //Unfilled bg of the donut
+			VAR textColor = "%23ffffff" // White text color for contrast (encoded # as %23 to make it work)
+			
+			//Conditional color logic for the donut chart
+			VAR foregroundColor = 
+			    IF(HDI_Value < 0.55, "%23FF6F61", // Red for bad HDI (< 0.55)
+			    IF(HDI_Value < 0.70, "%23FCB714",  //Yellow for average HDI (0.55 <= HDI < 0.70)
+			    "%230EB194")) // Green for good HDI (>= 0.70)
+			
+			VAR circumference = 2 * PI() * radius
+			VAR strokeDasharray = circumference
+			VAR strokeDashoffset = circumference * (1 - HDI_Value)
+			
+			VAR svg = 
+			    "data:image/svg+xml;utf8,<svg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'>
+			        <circle cx='20' cy='20' r='" & radius & "' stroke='" & backgroundColor & "' fill='none' stroke-width='" & strokeWidth & "'/>
+			        <circle cx='20' cy='20' r='" & radius & "' stroke='" & foregroundColor & "' fill='none' stroke-width='" & strokeWidth & "' 
+			            stroke-dasharray='" & strokeDasharray & "' 
+			            stroke-dashoffset='" & strokeDashoffset & "' 
+			            transform='rotate(-90 20 20)'/>
+			        <text x='20' y='22' text-anchor='middle' font-size='9' fill='" & textColor & "' font-family='Arial'>" & FORMAT(HDI_Value, "0.000") & "</text>
+			    </svg>"
+			
+			-- Return blank if HDI is blank, otherwise return the SVG
+			RETURN IF(ISBLANK(HDI_Value), BLANK(), svg)
+			
+			```
+		displayFolder: SVG Measures
+		lineageTag: 643b7552-2310-42a1-ba81-b63c1f6f2292
+		dataCategory: ImageUrl
+
+	measure 'SVG Flag' = ```
+			
+			VAR prefix = "data:image/svg+xml;utf8,"
+			VAR svg_content = 
+			    SELECTEDVALUE(dCountries[FlagP1], "") &
+			    SELECTEDVALUE(dCountries[FlagP2], "") &
+			    SELECTEDVALUE(dCountries[FlagP3], "") &
+			    SELECTEDVALUE(dCountries[FlagP4], "") &
+			    SELECTEDVALUE(dCountries[FlagP5], "") &
+			    SELECTEDVALUE(dCountries[FlagP6], "") &
+			    SELECTEDVALUE(dCountries[FlagP7], "")
+			
+			RETURN 
+			    IF(LEN(svg_content) > 0, prefix & svg_content, BLANK())
+			
+			```
+		displayFolder: SVG Measures
+		lineageTag: 359aabe3-65be-4eab-9ab3-d333f767200f
+		dataCategory: ImageUrl
+
+	measure 'SVG Border' = ```
+			
+			VAR prefix = "data:image/svg+xml;utf8,"
+			VAR svg_content = 
+			    SELECTEDVALUE(dCountries[borders.SVG Content])
+			
+			RETURN 
+			    IF(LEN(svg_content) > 0, prefix & svg_content, BLANK())
+			
+			```
+		displayFolder: SVG Measures
+		lineageTag: 2b247a05-2733-4df4-8693-7939bac33a93
+		dataCategory: ImageUrl
+
+	partition _Measures = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"Column1"})
+				in
+				    #"Removed Columns"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

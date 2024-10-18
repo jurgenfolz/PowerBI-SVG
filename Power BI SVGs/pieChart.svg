@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="pie" width="120" height="120" viewBox="0 0 20 20">
+
+       
+        <defs>
+            <style>#pie .cls-1{opacity:1 !important;fill:#8baed1;}#pie .cls-2{fill:#efd9b2;}#pie .cls-3{fill:#eab0a0;}#pie .cls-4{fill:none;}</style>
+        </defs>
+        <path class="cls-1 fwns" d="M10,1V11L4.53,16.39A8.49,8.49,0,1,0,10,1Z"></path>
+        <path class="cls-2 fwns" d="M9,9.52V1A8.49,8.49,0,0,0,1.9,5.71Z"></path>
+        <path class="cls-3 fwns" d="M3.55,15.57l4.91-4.91-7-3.78a8.48,8.48,0,0,0,2.13,8.7Z"></path>
+        <rect class="cls-4 nfwns" width="20" height="20"></rect>
+   
+</svg>

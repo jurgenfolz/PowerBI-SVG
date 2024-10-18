@@ -1,0 +1,155 @@
+{
+    "name": "Elegant Dark Mode Theme",
+    "version": "1.0",
+    "themeVersion": "0.4",
+    "dataColors": [
+      "#FF6F61",
+      "#6B5B95",
+      "#88B04B",
+      "#F7CAC9",
+      "#92A8D1",
+      "#955251",
+      "#B565A7"
+    ],
+    "background": "#121212",
+    "foreground": "#E0E0E0",
+    "tableAccent": "#FF6F61",
+    "textClasses": {
+      "callout": {
+        "fontFace": "DIN",
+        "color": {
+          "solid": {
+            "color": "#E0E0E0"
+          }
+        }
+      },
+      "title": {
+        "fontFace": "DIN",
+        "fontSize": 14,
+        "color": {
+          "solid": {
+            "color": "#FFFFFF"
+          }
+        }
+      },
+      "header": {
+        "fontFace": "DIN",
+        "fontSize": 12,
+        "color": {
+          "solid": {
+            "color": "#FFFFFF"
+          }
+        }
+      },
+      "label": {
+        "fontFace": "DIN",
+        "fontSize": 10,
+        "color": {
+          "solid": {
+            "color": "#E0E0E0"
+          }
+        }
+      }
+    },
+    "visualStyles": {
+      "*": {
+        "*": {
+          "*": [
+            {
+              "fontFamily": "DIN",
+              "color": {
+                "solid": {
+                  "color": "#E0E0E0"
+                }
+              }
+            }
+          ],
+          "labels": [
+            {
+              "fontFamily": "DIN",
+              "fontSize": 10,
+              "color": {
+                "solid": {
+                  "color": "#E0E0E0"
+                }
+              }
+            }
+          ],
+          "title": [
+            {
+              "fontFamily": "DIN",
+              "fontSize": 14,
+              "color": {
+                "solid": {
+                  "color": "#FFFFFF"
+                }
+              }
+            }
+          ],
+          "legend": [
+            {
+              "titleText": {
+                "fontFamily": "DIN",
+                "fontSize": 12,
+                "color": {
+                  "solid": {
+                    "color": "#FFFFFF"
+                  }
+                }
+              },
+              "labelColor": {
+                "solid": {
+                  "color": "#E0E0E0"
+                }
+              }
+            }
+          ],
+          "categoryAxis": [
+            {
+              "title": {
+                "fontFamily": "DIN",
+                "fontSize": 12,
+                "color": {
+                  "solid": {
+                    "color": "#FFFFFF"
+                  }
+                }
+              },
+              "labels": {
+                "fontFamily": "DIN",
+                "fontSize": 10,
+                "color": {
+                  "solid": {
+                    "color": "#E0E0E0"
+                  }
+                }
+              }
+            }
+          ],
+          "valueAxis": [
+            {
+              "title": {
+                "fontFamily": "DIN",
+                "fontSize": 12,
+                "color": {
+                  "solid": {
+                    "color": "#FFFFFF"
+                  }
+                }
+              },
+              "labels": {
+                "fontFamily": "DIN",
+                "fontSize": 10,
+                "color": {
+                  "solid": {
+                    "color": "#E0E0E0"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

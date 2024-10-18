@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="columnVert" width="120" height="120" viewBox="0 0 20 20">
+
+
+        <defs>
+            <style>#columnVert .cls-1{opacity:1 !important;fill:gray;}#columnVert .cls-2{fill:#b3b3b3;}#columnVert .cls-3{fill:#e78e46;}#columnVert .cls-4{fill:none;}</style>
+        </defs>
+        <polygon class="cls-1 fwns" points="2 18 2 1 1 1 1 19 19 19 19 18 2 18"></polygon>
+        <rect class="cls-2 fwns" x="4" y="14" width="5" height="4"></rect>
+        <rect class="cls-2 fwns" x="11" y="11" width="5" height="7"></rect>
+        <rect class="cls-3 fwns" x="11" y="3" width="5" height="8"></rect>
+        <rect class="cls-3 fwns" x="4" y="6" width="5" height="8"></rect>
+        <rect class="cls-4 nfwns" width="20" height="20"></rect>
+    
+        
+</svg>

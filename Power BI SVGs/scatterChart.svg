@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="scatter" width="120" height="120" viewBox="0 0 20 20">
+
+        
+        <defs>
+            <style>#scatter .cls-1{opacity:1 !important;fill:gray;}#scatter .cls-2{fill:#4d82b8;}#scatter .cls-3{fill:#e3bb7c;}#scatter .cls-4{fill:#d86344;}#scatter .cls-5{fill:#76a797;}#scatter .cls-6{fill:none;}</style>
+        </defs>
+        <polygon class="cls-1 fwns" points="2 18 2 1 1 1 1 19 19 19 19 18 2 18"></polygon>
+        <circle class="cls-1 fwns" cx="14.5" cy="14.5" r="1.75"></circle>
+        <circle class="cls-2 fwns" cx="4.5" cy="12.5" r="1.75"></circle>
+        <circle class="cls-2 fwns" cx="17.5" cy="10.5" r="1.75"></circle>
+        <circle class="cls-3 fwns" cx="10.5" cy="10.5" r="1.75"></circle>
+        <circle class="cls-4 fwns" cx="5.5" cy="6.5" r="1.75"></circle>
+        <circle class="cls-5 fwns" cx="13.5" cy="5.5" r="1.75"></circle>
+        <rect class="cls-6 nfwns" width="20" height="20"></rect>
+   
+</svg>

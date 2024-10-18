@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="column100Horiz" width="120" height="120" viewBox="0 0 20 20">
+
+
+       
+        <defs>
+            <style>#column100Horiz .cls-1{opacity:1 !important;fill:gray;}#column100Horiz .cls-2{fill:#8baed1;}#column100Horiz .cls-3{fill:none;}</style>
+        </defs>
+        <polygon class="cls-1 fwns" points="2 18 2 1 1 1 1 19 19 19 19 18 2 18"></polygon>
+        <rect class="cls-1 fwns" x="2" y="4" width="5" height="5"></rect>
+        <rect class="cls-1 fwns" x="2" y="11" width="8" height="5"></rect>
+        <rect class="cls-2 fwns" x="7" y="4" width="10" height="5"></rect>
+        <rect class="cls-2 fwns" x="10" y="11" width="7" height="5"></rect>
+        <rect class="cls-3 nfwns" width="20" height="20"></rect>
+    
+    
+</svg>

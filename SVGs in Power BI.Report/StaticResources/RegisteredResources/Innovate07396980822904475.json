@@ -1,0 +1,203 @@
+{
+  "name": "Innovate",
+  "dataColors": [
+    "#70B0E0",
+    "#FCB714",
+    "#88B04B",
+    "#0EB194",
+    "#FF6F61",
+    "#AF916D",
+    "#F7CAC9",
+    "#F15628"
+  ],
+  "foreground": "#FFFFFF",
+  "foregroundNeutralSecondary": "#D2D0CE",
+  "foregroundNeutralTertiary": "#979593",
+  "background": "#3a3a3a",
+  "backgroundLight": "#3B3A39",
+  "backgroundNeutral": "#605E5C",
+  "tableAccent": "#2878BD",
+  "maximum": "#2878BD",
+  "center": "#FCB714",
+  "minimum": "#D0E4F5",
+  "hyperlink": "#2878BD",
+  "visitedHyperlink": "#D0E4F5",
+  "textClasses": {
+    "callout": {
+      "fontFace": "Arial",
+      "color": "#FFFFFF"
+    },
+    "title": {
+      "fontFace": "Arial",
+      "color": "#FFFFFF"
+    },
+    "header": {
+      "fontFace": "Arial",
+      "color": "#FFFFFF"
+    },
+    "label": {
+      "fontFace": "Arial",
+      "color": "#FFFFFF"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#3a3a3a"
+              }
+            }
+          }
+        ],
+        "visualHeader": [
+          {
+            "foreground": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "border": {
+              "solid": {
+                "color": "#3a3a3a"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#3a3a3a"
+              }
+            }
+          }
+        ],
+        "outspacePane": [
+          {
+            "backgroundColor": {
+              "solid": {
+                "color": "#3a3a3a"
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0,
+            "border": true,
+            "borderColor": {
+              "solid": {
+                "color": "#979593"
+              }
+            }
+          }
+        ],
+        "filterCard": [
+          {
+            "$id": "Applied",
+            "transparency": 0,
+            "foregroundColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "backgroundColor": {
+              "solid": {
+                "color": "#605E5C"
+              }
+            },
+            "inputBoxColor": {
+              "solid": {
+                "color": "#605E5C"
+              }
+            },
+            "borderColor": {
+              "solid": {
+                "color": "#979593"
+              }
+            },
+            "border": true
+          },
+          {
+            "$id": "Available",
+            "transparency": 0,
+            "foregroundColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "backgroundColor": {
+              "solid": {
+                "color": "#3a3a3a"
+              }
+            },
+            "inputBoxColor": {
+              "solid": {
+                "color": "#3a3a3a"
+              }
+            },
+            "borderColor": {
+              "solid": {
+                "color": "#979593"
+              }
+            },
+            "border": true
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [
+          {
+            "background": {
+              "solid": {
+                "color": "#3a3a3a"
+              }
+            }
+          }
+        ],
+        "numericInputStyle": [
+          {
+            "background": {
+              "solid": {
+                "color": "#3a3a3a"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "keyDriversVisual": {
+      "*": {
+        "keyInfluencersVisual": [
+          {
+            "canvasColor": {
+              "solid": {
+                "color": "#3B3A39"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#272727"
+              }
+            }
+          }
+        ],
+        "background": [
+          {
+            "transparency": 100
+          }
+        ]
+      }
+    }
+  }
+}

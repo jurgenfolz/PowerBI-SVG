@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="slicerVert" width="120" height="120" viewBox="0 0 20 20">
+
+        
+        <defs>
+            <style>#slicerVert .cls-1{opacity:1 !important;fill:#fff;}#slicerVert .cls-2{fill:#b3b3b3;}#slicerVert .cls-3{fill:#4d82b8;}#slicerVert .cls-4{fill:#8baed1;}#slicerVert .cls-5{fill:#eac282;}#slicerVert .cls-6{fill:#eab0a0;}#slicerVert .cls-7{fill:gray;}#slicerVert .cls-8{fill:none;}</style>
+        </defs>
+        <polygon class="cls-1 nfwns" points="13 17 9 13 9 9 17 9 17 4 2 4 2 18 13 18 13 17"></polygon>
+        <polygon class="cls-2 fwns" points="2 18 2 4 1 4 1 19 13 19 13 18 2 18"></polygon>
+        <rect class="cls-2 fwns" x="17" y="4" width="1" height="5"></rect>
+        <rect class="cls-3 fwns" x="1" y="1" width="17" height="3"></rect>
+        <rect class="cls-4 fwns" x="4" y="5" width="3" height="3"></rect>
+        <rect class="cls-5 fwns" x="4" y="9" width="3" height="3"></rect>
+        <rect class="cls-6 fwns" x="4" y="13" width="3" height="3"></rect>
+        <polygon class="cls-7 fwns" points="20 10 10 10 10 12 14 16 14 20 16 20 16 16 20 12 20 10"></polygon>
+        <rect class="cls-8 nfwns" width="20" height="20"></rect>
+    
+</svg>

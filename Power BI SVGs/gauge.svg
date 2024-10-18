@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="gauge" width="120" height="120" viewBox="0 0 20 20">
+
+       
+        <defs>
+            <style>#gauge .cls-1{opacity:1 !important;fill:#eac282;}#gauge .cls-2{fill:#70a492;}#gauge .cls-3{fill:#555;}#gauge .cls-4{fill:none;}</style>
+        </defs>
+        <path class="cls-1 fwns" d="M12.39,7.77l2-2.62A9,9,0,0,0,1,13v2H4.25V13a5.73,5.73,0,0,1,8.14-5.21Z"></path>
+        <path class="cls-2 fwns" d="M15.41,5.83,13.47,8.41A5.73,5.73,0,0,1,15.75,13v2H19V13A9,9,0,0,0,15.41,5.83Z"></path>
+        <path class="cls-3 fwns" d="M15.41,8.75,9.52,12.17a1.37,1.37,0,1,0,1.05,1.33s0,0,0-.07Z"></path>
+        <rect class="cls-4 nfwns" width="20" height="20"></rect>
+    
+</svg>

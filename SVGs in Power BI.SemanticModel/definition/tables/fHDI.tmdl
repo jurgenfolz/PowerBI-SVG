@@ -1,0 +1,54 @@
+table fHDI
+	lineageTag: c5556857-f362-43b4-b073-866c97d93352
+
+	column Entity
+		dataType: string
+		lineageTag: 6a42e591-dee5-4815-b613-ecca23e3f0fe
+		summarizeBy: none
+		sourceColumn: Entity
+
+		annotation SummarizationSetBy = Automatic
+
+	column Code
+		dataType: string
+		lineageTag: 585f4513-a00d-4da9-ab87-fe39dfa6df42
+		summarizeBy: none
+		sourceColumn: Code
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: e4f4caee-a36f-4793-bb99-78a4b17b04ce
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Human Development Index'
+		dataType: double
+		formatString: 0
+		lineageTag: 132032c6-0ae1-456e-a39b-f0aff9fbfe0d
+		summarizeBy: sum
+		sourceColumn: Human Development Index
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fHDI = m
+		mode: import
+		queryGroup: Tables
+		source =
+				let
+				    Source = Csv.Document(File.Contents(FolderPath&"human-development-index.csv"),[Delimiter=",", Columns=4, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Entity", type text}, {"Code", type text}, {"Year", Int64.Type}}),
+				    #"Changed Type with Locale" = Table.TransformColumnTypes(#"Changed Type", {{"Human Development Index", type number}}, "en-US"),
+				    #"Filtered Rows - Only countries" = Table.SelectRows(#"Changed Type with Locale", each ([Code] <> "") and ([Entity] <> "World"))
+				in
+				    #"Filtered Rows - Only countries"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="smartNarratives" width="120" height="120" viewBox="0 0 20 20">
+
+        
+        <rect x="2" y="7" fill="#FFFFFF" width="16" height="9"></rect>
+        <rect fill="none" width="20" height="20"></rect>
+        <path fill="#9E9E9E" d="M19,3v14H1V3H19z M2,4v2h16V4H2z M2,16h9V7H2V16z M18,16V7h-6v9H18z"></path>
+        <rect x="3" y="8" fill="#8BAED1" width="7" height="7"></rect>
+        <rect x="13" y="8" fill="#727272" width="4" height="1"></rect>
+        <rect x="13" y="10" fill="#727272" width="4" height="1"></rect>
+        <rect x="13" y="12" fill="#727272" width="4" height="1"></rect>
+        <rect x="13" y="14" fill="#727272" width="4" height="1"></rect>
+        <rect x="1" y="3" fill="#5A8CB7" width="18" height="4"></rect>
+    
+</svg>

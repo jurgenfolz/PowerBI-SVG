@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="decompositionTree" width="120" height="120" viewBox="0 0 20 20">
+
+        
+        <defs>
+            <style>.cls-1,#decompositionTree .cls-2{fill:none;}#decompositionTree .cls-2{stroke:#bebebe;stroke-miterlimit:10;stroke-width:0.5px;}#decompositionTree .cls-3{fill:#4d82b8;}#decompositionTree .cls-4{clip-path:url(#clip-path);}#decompositionTree .cls-5{fill:#f3f2f1;}#decompositionTree .cls-6{fill:#bebebe;isolation:isolate;}#decompositionTree .cls-7{fill:#dbdbdb;}#decompositionTree .cls-8{fill:#eec978;}</style>
+            <clipPath id="clip-path">
+                <rect class="cls-1" x="10" y="11" width="7" height="3"></rect>
+            </clipPath>
+        </defs>
+        <path class="cls-2" d="M6.69,7.5C7,7.29,7.57,7.74,8,8.68c.26.65.41,1.11.68,1.88S9.19,12.5,10,12.5"></path>
+        <path class="cls-2" d="M6.69,7.5C7,7.71,7.57,7.25,8,6.32c.26-.65.41-1.12.68-1.88S9.19,2.5,10,2.5"></path>
+        <line class="cls-2" x1="7" y1="7.5" x2="10" y2="7.5"></line>
+        <rect class="cls-3" x="10" y="6" width="7" height="3"></rect>
+        <rect class="cls-3" x="1" y="6" width="6" height="3"></rect>
+        <rect class="cls-3" x="10" y="1" width="7" height="3"></rect>
+        <rect class="cls-3" x="10" y="11" width="7" height="3"></rect>
+        <g class="cls-4">
+            <path class="cls-5" d="M13.16,16.74a2,2,0,0,1,.4.65,2,2,0,0,1,.13.75h5.48a2,2,0,0,1,.54-1.41,5.7,5.7,0,0,0,1-1.45A4.27,4.27,0,0,0,21,13.57a4.46,4.46,0,0,0-.36-1.78,4.52,4.52,0,0,0-2.43-2.43,4.61,4.61,0,0,0-3.57,0,4.48,4.48,0,0,0-2.42,2.42,4.47,4.47,0,0,0-.36,1.79,4.27,4.27,0,0,0,.33,1.71A5.54,5.54,0,0,0,13.16,16.74Z"></path>
+        </g>
+        <rect class="cls-1" x="11.86" y="8.61" width="7.14" height="4.72"></rect>
+        <path class="cls-6" d="M17.14,18.57H15.71V17.14H14.29v1.43a1.26,1.26,0,0,0,.11.55,1.31,1.31,0,0,0,.3.46,1.62,1.62,0,0,0,.46.31,1.5,1.5,0,0,0,.55.11h1.43a1.47,1.47,0,0,0,.56-.11,1.57,1.57,0,0,0,.45-.31,1.39,1.39,0,0,0,.31-.45,1.47,1.47,0,0,0,.11-.56V17.14H17.14Z"></path>
+        <rect class="cls-7" x="15.71" y="17.14" width="1.43" height="1.43"></rect>
+        <path class="cls-8" d="M13.87,16.05a1.41,1.41,0,0,1,.32.51,1.76,1.76,0,0,1,.1.58h4.28A1.56,1.56,0,0,1,19,16a4.57,4.57,0,0,0,.74-1.13A3.41,3.41,0,0,0,20,13.57a3.45,3.45,0,0,0-.28-1.39,3.49,3.49,0,0,0-1.9-1.9,3.62,3.62,0,0,0-2.79,0,3.54,3.54,0,0,0-1.89,1.89,3.47,3.47,0,0,0-.28,1.4,3.41,3.41,0,0,0,.26,1.34A4.31,4.31,0,0,0,13.87,16.05Z"></path>
+    
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="basicArea" width="120" height="120" viewBox="0 0 20 20">
+
+        
+        <defs>
+            <style>#basicArea .cls-1{opacity:1 !important;fill:gray;}#basicArea .cls-2{fill:#a9c4da;}#basicArea .cls-3{fill:#e9ad6a;}#basicArea .cls-4{fill:#e78e46;}#basicArea .cls-5{fill:#f2dab4;}#basicArea .cls-6{fill:#b4b4b2;}#basicArea .cls-7{fill:none;}</style>
+        </defs>
+        <polygon class="cls-1 fwns" points="2 18 2 1 1 1 1 18 1 19 2 19 19 19 19 18 2 18"></polygon>
+        <polygon class="cls-2 fwns" points="2 9 2 13 7 14 8.29 10.55 7 8 2 9"></polygon>
+        <polygon class="cls-3 fwns" points="10.05 8.66 8.29 10.55 11 16 19 15 19 11 13 10 10.05 8.66"></polygon>
+        <polygon class="cls-4 fwns" points="14.42 4 10.05 8.66 12.6 10.8 19 11.7 19 5 14.42 4"></polygon>
+        <polygon class="cls-5 fwns" points="2 9.6 7 9 8.29 10.55 10.05 8.66 7 5 2 7 2 9.6"></polygon>
+        <polygon class="cls-6 fwns" points="8.29 10.55 6 13 2 12 2 18 19 18 19 14 12 15 8.29 10.55"></polygon>
+        <rect class="cls-7 nfwns" width="20" height="20"></rect>
+   
+</svg>

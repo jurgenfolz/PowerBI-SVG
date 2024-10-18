@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="filledMap" width="120" height="120" viewBox="0 0 20 20">
+
+        <defs>
+            <style>#filledMap .cls-1{opacity:1 !important;fill:#b3b3b3;}#filledMap .cls-2{fill:#bebebe;}#filledMap .cls-3{fill:#eac282;}#filledMap .cls-4{fill:#4d82b8;}#filledMap .cls-5{fill:#8baed1;}#filledMap .cls-6{fill:none;}</style>
+        </defs>
+        <polygon class="cls-1 fwns" points="13 3 13 4 7 4 7 3 1 3 1 4 2 4 2 5 4 5 4 6 15 6 15 3 13 3"></polygon>
+        <polygon class="cls-2 fwns" points="16 7 8 7 8 8 9 8 9 11 15 11 15 9 16 9 16 7"></polygon>
+        <polygon class="cls-2 fwns" points="7 14 7 12 1 12 1 13 2 13 2 15 4 15 4 17 6 17 6 18 7 18 7 19 8 19 8 16 9 16 9 14 7 14"></polygon>
+        <polygon class="cls-3 fwns" points="19 9 19 2 17 2 17 3 16 3 16 6 17 6 17 9 17 10 16 10 16 12 18 12 18 11 19 11 19 10 18 10 18 9 19 9"></polygon>
+        <polygon class="cls-4 fwns" points="7 9 7 7 3 7 3 6 2 6 2 9 1 9 1 11 8 11 8 9 7 9"></polygon>
+        <polygon class="cls-5 fwns" points="15 13 15 12 9 12 9 13 10 13 10 17 9 17 9 18 11 18 11 17 13 17 13 18 14 18 14 17 17 17 17 16 18 16 18 13 15 13"></polygon>
+        <rect class="cls-6 nfwns" width="20" height="20"></rect>
+  
+</svg>
