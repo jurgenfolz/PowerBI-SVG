@@ -8,7 +8,6 @@ table _Measures
 
 	measure 'Donut Chart' = ```
 			
-			//Penis
 			VAR HDI_Value = [Human Development Index] //The measure that will be used
 			VAR radius = 16 // Radius of the donut chart
 			VAR strokeWidth = 6  // width of the chart

@@ -22,7 +22,7 @@ table borders
 		queryGroup: Tables
 		source =
 				let
-				    Source = Table.FromColumns({Lines.FromBinary(File.Contents("C:\Users\KlausFolz\Desktop\GD\Repositories\SVG-Repo\data\borders.json"), null, null)}),
+				    Source = Table.FromColumns({Lines.FromBinary(File.Contents(FolderPath&"borders.json"), null, null)}),
 				    #"Transformed Column" = Table.TransformColumns(Source, {"Column1", Json.Document}),
 				    #"Expanded Column1" = Table.ExpandRecordColumn(#"Transformed Column", "Column1", {"File Name", "SVG Content"}, {"File Name", "SVG Content"}),
 				    #"Changed Type" = Table.TransformColumnTypes(#"Expanded Column1",{{"File Name", type text}, {"SVG Content", type text}})
